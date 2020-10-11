@@ -1,0 +1,8 @@
+---
+- name: Get Date.
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Get date
+      command: date
